@@ -64,6 +64,7 @@ export default class extends Controller {
       return;
     }
 
+    // meow
     if (this.element.classList.contains("lapse-modal--open")) {
       this.element.classList.remove("lapse-modal--open");
       this.element.classList.add("lapse-modal--closing");
